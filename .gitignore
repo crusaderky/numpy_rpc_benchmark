@@ -1,0 +1,20 @@
+*.py[cod]
+build/
+dist/
+*.egg-info/
+MANIFEST
+.ipynb_checkpoints/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# PyCharm project settings
+.idea
+
+# Generated gRPC Python files
+*_pb2.py
+*_grpc.py

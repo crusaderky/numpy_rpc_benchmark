@@ -1,0 +1,3 @@
+include protos/*.proto
+exclude protos/*_pb2.py
+exclude protos/*_grpc.py

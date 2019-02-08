@@ -1,0 +1,8 @@
+numpy
+grpcio
+grpcio-tools
+purerpc
+tornado
+aiohttp
+msgpack
+msgpack_numpy

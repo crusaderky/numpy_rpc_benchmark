@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message NDArray {
+    bytes buffer = 1;
+    string dtype = 2;
+    repeated uint64 shape = 3;
+}
+
+service Calculator {
+    rpc Echo(NDArray) returns (NDArray) {}
+}
